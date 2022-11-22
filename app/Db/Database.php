@@ -30,7 +30,7 @@ class Database
    * Senha de acesso ao banco de dados
    * @var string
    */
-  const PASS = 'toor';
+  const PASS = 'root';
 
   /**
    * Nome da tabela a ser manipulada
