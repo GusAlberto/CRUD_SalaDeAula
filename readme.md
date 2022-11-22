@@ -54,7 +54,7 @@ composer install
 ```
 Após essa execução uma pasta com o nome `vendor` será criada na raiz do projeto e você já pode acessá-lo.
 
-Acesse o projeto pelo seu navegador.
+Acesse o projeto pelo seu navegador ➡️
 [http://localhost:8090](http://localhost:8090)
 
 
@@ -75,5 +75,5 @@ Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela
 ```
 
 ## Configuração
-As credenciais do banco de dados estão no arquivo `./app/Db/Database.php` e você deve alterar para as configurações do seu ambiente. 
+As credenciais do banco de dados estão no arquivo `./app/Db/Database.php` será necessário mudá-las. Altere para ambiente que está utilizando.
 (HOST, NAME, USER e PASS).
