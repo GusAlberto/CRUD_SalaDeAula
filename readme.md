@@ -1,6 +1,6 @@
 # CRUD com PHP orientado a objetos
 Código para criação de um CRUD feito em PHP orientado a objetos utilizando MySQL.
----
+
 
 ### Passo a passo
 Clone Repositório
@@ -11,11 +11,11 @@ git clone https://github.com/GusAlberto/CRUD_SalaDeAula.git
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
 APP_NAME="CRUD SENAI"
-APP_URL=http://localhost:8090
+APP_URL=http://localhost:8080
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
-DB_PORT=3308
+DB_PORT=3306
 DB_DATABASE=nome_que_desejar_db
 DB_USERNAME=root
 DB_PASSWORD=root
@@ -31,12 +31,13 @@ REDIS_PORT=6379
 
 ## Composer
 Para a aplicação funcionar, é necessário rodar o Composer para que sejam criados os arquivos responsáveis pelo autoload das classes.
-<br>
-O Composer já sera instalado para você no conteiner do Docker.
+
+
+O Composer já será instalado para você no conteiner do Docker.
 
 Confira a documentação do Composer:
 [https://getcomposer.org/doc](https://getcomposer.org/doc/)
-
+--
 Suba os containers do projeto
 ```sh
 docker-compose up -d
@@ -51,15 +52,10 @@ Instale as dependências do projeto
 ```sh
 composer install
 ```
-**OPCIONAL**
-<br>
-Gere a key do projeto Laravel
-```sh
-php artisan key:generate
-```
+Após essa execução uma pasta com o nome `vendor` será criada na raiz do projeto e você já pode acessá-lo.
 
-Acesse o projeto
-[http://localhost:8080](http://localhost:8080)
+Acesse o projeto pelo seu navegador.
+[http://localhost:8090](http://localhost:8090)
 
 
 ## Banco de dados
@@ -79,6 +75,5 @@ Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela
 ```
 
 ## Configuração
-As credenciais do banco de dados estão no arquivo `./app/Db/Database.php` e você deve alterar para as configurações do seu ambiente (HOST, NAME, USER e PASS).
-
-Após essa execução uma pasta com o nome `vendor` será criada na raiz do projeto e você já poderá acessar pelo seu navegador.
+As credenciais do banco de dados estão no arquivo `./app/Db/Database.php` e você deve alterar para as configurações do seu ambiente. 
+(HOST, NAME, USER e PASS).
