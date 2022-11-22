@@ -21,5 +21,3 @@
         <p>Exemplo de CRUD com PHP orientados a objetos</p>
         <p>HT-IPI-003-N-03</p>
       </div>
-
-

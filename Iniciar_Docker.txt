@@ -1,7 +1,9 @@
 Requerido:
 
-1- Suba os containers do projeto:
+1- Estar em ambiente Linux
+
+2- Suba os containers do projeto:
 docker-compose up -d
 
-2- Depois acesse o container "app" com o bash do Docker:
+3- Depois acesse o container "app" com o bash do Docker:
 docker-compose exec app bash
