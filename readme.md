@@ -1,5 +1,5 @@
 # CRUD com PHP orientado a objetos
-Código da implementação de um CRUD com PHP orientado a objetos e MySQL
+Código para criação de um CRUD feito em PHP orientado a objetos utilizando MySQL.
 
 ## Banco de dados
 Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela `salas`:
