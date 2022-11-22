@@ -11,11 +11,11 @@ git clone https://github.com/GusAlberto/CRUD_SalaDeAula.git
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
 APP_NAME="CRUD SENAI"
-APP_URL=http://localhost:8080
+APP_URL=http://localhost:8090
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
-DB_PORT=3306
+DB_PORT=3308
 DB_DATABASE=nome_que_desejar_db
 DB_USERNAME=root
 DB_PASSWORD=root
